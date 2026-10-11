@@ -6,7 +6,7 @@ import { join, resolve } from "node:path";
 import { spawnSync } from "node:child_process";
 
 const root = resolve(import.meta.dirname, "..");
-const verifier = join(root, "src", "verify-colony-execution-boundary.mjs");
+const verifier = join(root, "scripts", "verify-colony-execution-boundary.mjs");
 
 const HOSTNAME = "example.561.group";
 const SERVICE_PORT = "19999";

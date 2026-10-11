@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { resolve } from "node:path";
 import { spawnSync } from "node:child_process";
 
-const relay = resolve(import.meta.dirname, "..", "src", "userspace-socks-relay.mjs");
+const relay = resolve(import.meta.dirname, "..", "scripts", "userspace-socks-relay.mjs");
 
 function run(env) {
   return spawnSync(process.execPath, [relay], { encoding: "utf8", env: { ...process.env, ...env }, timeout: 2000 });
