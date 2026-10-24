@@ -1,5 +1,5 @@
 {
-  "name": "@red-cup-engineering/tailscale-engineering-services-section",
+  "name": "@red-cup-engineering/tailscale-services-section",
   "version": "0.1.0",
   "description": "Tailscale platform services: userspace SOCKS relay and relay-boundary checking.",
   "type": "module",
