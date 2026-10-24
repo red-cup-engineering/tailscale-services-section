@@ -1,5 +1,5 @@
 {
-  "name": "@red-cup-engineering/tailscale-services-section",
+  "name": "@red-cup-engineering/tailscale-engineering-services-section",
   "version": "0.1.0",
   "description": "Tailscale platform services: userspace SOCKS relay and relay-boundary checking.",
   "type": "module",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/tailscale-services-section.git"
+    "url": "git+https://github.com/red-cup-engineering/tailscale-engineering-services-section.git"
   },
   "license": "MIT",
   "funding": {
